@@ -51,7 +51,14 @@ Now, we close the postgresql bash and the user's session by typing twice exit
     postgres=# exit
     postgres@user:~$ exit
 
+Now start the servers with
 
+    cd app/ && yarn dev
+    cd api/ && yarn strapi dev
+
+Go to localhost:1337 and create a new user then go to localhost:3000 and test the app 🚀.
+
+Happy coding 🎉!
 ## Screenshots
 
   <img src="https://user-images.githubusercontent.com/36203999/111043528-abb06100-8408-11eb-9a47-b4455524b545.png" alt="Index page"/>
