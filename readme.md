@@ -58,7 +58,19 @@ cd app/ && yarn dev
 cd api/ && yarn strapi dev
 ```
 
-Go to localhost:1337 and create a new user then go to localhost:3000 and test the app 🚀.
+Go to localhost:1337 and create a new admin and user on Strapi
+
+<img src="https://user-images.githubusercontent.com/36203999/113796004-c8903980-9713-11eb-9ed7-3ff24acc761e.png" alt="Index page"/>
+
+Then go to the users section and click on "+Add New User". 
+
+<img src="https://user-images.githubusercontent.com/36203999/113796089-07be8a80-9714-11eb-9970-3ca743b4ed9f.png"/>
+
+Now we put some test data, in this case. I created a Test User with email "test@gmail.com" and a password, then we click on the "Save" button
+
+<img src="https://user-images.githubusercontent.com/36203999/113796148-2b81d080-9714-11eb-9495-1fbcd4105c37.png"/>
+
+Then go to localhost:3000 and test the app with the created user :) 🚀.
 
 Happy coding 🎉!
 ## Screenshots

@@ -32,10 +32,13 @@ export default function Home() {
                     signOut()
                   }}
                 >Logout
-                        </a>
+                </a>
               </div>
               :
-              <a className={styles.button} href="/login">Login</a>
+              <div className={styles.navlist}>
+                <a href="/protected">Protected page</a>
+                <a className={styles.button} href="/login">Login</a>
+              </div>
             }
           </div>
         </div>
@@ -47,7 +50,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          {session ? <p>Your JWT is {session.jwt}</p> : <span>Get started by click in <a href="/login">login</a>{' '}</span>}
+          {session ? <span>Your JWT is {session.jwt}</span> : <span>Get started by click in <a href="/login">login</a>{' '}</span>}
         </p>
       </main>
 
